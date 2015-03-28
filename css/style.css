@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  line-height: 1;
+  color: #fff;;
+  background-color: #444;
+  font-size: 16px;
+}
+
+.page-content {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.animation-wrap {
+  
+}
+
+.animation-title {
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+}
+
+.animation-cont {
+  width: auto;
+  padding: 15px;
+  border: 1px solid #fff;
+}
+
+.animation {
+  height: 50px;
+  width: 15%;
+  background-color: #fff;
+  -webkit-animation-name: move;
+  animation-name: move;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animation-linear {
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.animation-ease {
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+.animation-ease-in {
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.animation-ease-out {
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+.animation-ease-in-out {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
