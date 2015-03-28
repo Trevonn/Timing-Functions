@@ -43,11 +43,6 @@ body {
 .page-content {
   width: 960px;
   margin: 0 auto;
-  padding-top: 15px;
-}
-
-.animation-wrap {
-  
 }
 
 .animation-title {
@@ -97,4 +92,17 @@ body {
 .animation-ease-in-out {
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+}
+
+.link {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	color: #09f;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.link:hover {
+	text-decoration: underline;
 }
